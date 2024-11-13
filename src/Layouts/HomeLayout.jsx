@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import LatestNews from "../Components/LatestNews";
+import LeftSide from "../Components/Layout Components/LeftSide";
 import Navbar from "../Components/Navbar";
 
 const HomeLayout = () => {
@@ -16,7 +17,9 @@ const HomeLayout = () => {
 
       {/* Main Content */}
       <main className="w-11/12 mx-auto grid md:grid-cols-12 gap-5 py-5">
-        <section className="col-span-3">aside</section>
+        <section className="col-span-3">
+          <LeftSide></LeftSide>
+        </section>
         <section className="col-span-6">main</section>
         <section className="col-span-3">aside</section>
       </main>

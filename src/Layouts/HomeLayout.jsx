@@ -3,11 +3,14 @@ import LatestNews from "../Components/LatestNews";
 
 const HomeLayout = () => {
   return (
-    <div>
+    <div className="font-poppins">
       {/* Header */}
       <Header></Header>
+
       {/* Latest section */}
       <LatestNews></LatestNews>
+
+      {/* Navbar */}
     </div>
   );
 };

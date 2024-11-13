@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import LatestNews from "../Components/LatestNews";
+import Navbar from "../Components/Navbar";
 
 const HomeLayout = () => {
   return (
@@ -11,6 +12,7 @@ const HomeLayout = () => {
       <LatestNews></LatestNews>
 
       {/* Navbar */}
+      <Navbar></Navbar>
     </div>
   );
 };

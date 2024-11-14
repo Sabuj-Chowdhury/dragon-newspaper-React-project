@@ -52,9 +52,6 @@ const RightSide = () => {
           <img src={three} alt="" />
         </div>
       </div>
-
-      {/* Container */}
-      <div className="bg-aside-bg h-[500px] "></div>
     </div>
   );
 };

@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "serif"],
       },
+      backgroundImage: {
+        "aside-bg": "url('./src/assets/bg.png')",
+      },
     },
   },
   plugins: [daisyui],

@@ -13,7 +13,7 @@ const RightSide = () => {
       {/* container */}
       <div className="mb-5">
         <h2 className="font-semibold text-xl mb-2">Login With</h2>
-        <div className="space-y-2">
+        <div className="*:w-full space-y-2">
           <button className="btn">
             <FcGoogle />
             Login with Google
